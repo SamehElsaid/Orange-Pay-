@@ -1,0 +1,81 @@
+/* searchbar.css */
+
+/* Common styles for search bar items */
+.search-bar-item {
+  display: flex;
+  align-items: center;
+}
+
+/* Styles for desktop and large screens */
+.search-bar {
+  max-width: 846px;
+  margin: 0 auto; /* Center the search bar */
+  position: relative;
+  bottom: 70px;
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  z-index: 555;
+}
+
+.b-none{
+  border: none;
+}
+
+
+
+/* Styles for the search button */
+.search-button {
+  width: 80px;
+  background-color: #F47732;
+  color: #fff;
+  border: none;
+  padding: 8px 10px;
+  position: relative;
+  /* left: 30px; */
+  cursor: pointer;
+}
+
+/* Styles for the orange text */
+.orange-text {
+  color:#F47732;
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  .search-bar {
+    width: 100%;
+    /* max-width: 500px; */
+    /* margin: 0 auto; */
+    /* bottom: 20px; */
+  }
+
+  .s1 {
+    display: none;
+  }
+
+  .s2 {
+    width: 80%;
+  }
+/* 
+  .search-icon {
+    margin-right: 5px;
+    margin-left: 0;
+    padding-right: 0px;
+  } */
+
+  /* .search-input {
+    width: 100%;
+    margin-right: 0;
+  } */
+
+  /* .search-button {
+    width: 100%;
+    left: 0;
+    margin-top: 10px;
+  } */
+}
